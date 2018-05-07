@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="hb-01-one-to-one-uni:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/hb_01_one_to_one_uni_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="hb-01-one-to-one-uni/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="hb-01-one-to-one-uni" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Hibernate 5.2.16-5.2.16" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.46" />
+          <element id="library" level="project" name="jaxb-api-2.3.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
